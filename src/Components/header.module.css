@@ -1,0 +1,35 @@
+
+.header{
+    background: url(https://instaarts.com/wp-content/uploads/2023/03/ulrike-langner-iFWiTK-2B0I-unsplash-1-scaled.jpg);
+    background-position: center;
+    width: 100%;
+    height: 300px;
+ 
+
+}
+.menu{
+
+    display: flex;
+    list-style: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+
+
+    gap: 15rem;
+    width: 100%;
+    height: 60px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0 ));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 197, 14);
+    
+    
+}

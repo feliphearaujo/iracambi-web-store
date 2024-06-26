@@ -10,12 +10,12 @@ export default function Navbar(){
             <nav className={styles.navbar}>
                 <img src="src/assets/iracambi-logo.png" alt="" />
                 <div className={styles.search}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    <FontAwesomeIcon className={styles.lupa} icon={faMagnifyingGlass} />
                     <input type="text" placeholder="Pesquisar produtos" />
                 </div>
                 <div>
                     <a href=""><FontAwesomeIcon icon={faCartShopping} /> Carrinho</a>
-                    <a href=""><FontAwesomeIcon icon={faUser} />Conta</a>
+                    <a href=""><FontAwesomeIcon icon={faUser} /> Conta</a>
                 </div>
             </nav>        
             
