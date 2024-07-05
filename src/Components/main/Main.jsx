@@ -1,6 +1,6 @@
 import Header from "../header/Header";
 import Footer from "../footer/footer";
-import style from "../main/main.modules.css"
+import style from "./main.module.css";
 
 export default function Main() {
   return (
