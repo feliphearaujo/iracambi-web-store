@@ -1,0 +1,48 @@
+
+.imgConta{
+   
+ 
+   height: 91vh;
+   width:100%;
+
+
+}
+
+
+
+
+.conta{
+
+    max-width: 800px;
+    max-height: 800px;
+    display: flex;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 33%;
+    letter-spacing: 0.3em;
+    
+
+}
+
+.box{
+
+            /* Começo do background de Vidro */
+
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0 ));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+        
+            
+
+        
+            /* Fim do background de Vidro */
+
+
+
+  
+        
+}
+

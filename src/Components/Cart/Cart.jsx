@@ -1,7 +1,8 @@
 
+
 export default function Cart() {
   return (
-    <div>
+    <div className={styles.cart}>
       
     </div>
   )

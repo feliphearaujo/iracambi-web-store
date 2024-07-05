@@ -8,17 +8,24 @@ export default function Navbar(){
     return(
         <>
             <nav className={styles.navbar}>
+
                 <img src="src/assets/iracambi-logo.png" alt="" />
+                
                 <div className={styles.search}>
+
                     <FontAwesomeIcon className={styles.lupa} icon={faMagnifyingGlass} />
                     <input type="text" placeholder="Pesquisar produtos" />
+
                 </div>
                 <div>
-                    <a href=""><FontAwesomeIcon icon={faCartShopping} /> Carrinho</a>
-                    <a href=""><FontAwesomeIcon icon={faUser} /> Conta</a>
+
+                    <a href="/"><FontAwesomeIcon icon={faCartShopping} /> Carrinho</a>
+                    <a href="./Conta"><FontAwesomeIcon icon={faUser} /> Conta</a>
+
                 </div>
             </nav>        
             
         </>
     )
 }
+

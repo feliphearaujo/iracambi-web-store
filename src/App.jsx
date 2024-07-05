@@ -1,17 +1,25 @@
 import { Routes, Route } from "react-router-dom"
-
 import './styles.global.css'
 
-import Header from './Components/header/Header'
-import Footer from "./Components/footer/footer"
+import Conta from "./Components/Conta"
+import Main from "./Components/main/Main"
+
+// import Cart from '@fortawesome/free-brands-svg-icons'
 
 function App() {
 
 
   return (
     <>
-       <Header/>
-        <Footer/>
+
+       <Routes>
+       <Route path="/" element={<Main/>} />
+        <Route path="Conta" element={<Conta/>} /> 
+{/* 
+        <Route path="Carrinho" element={<Cart/>} /> */}
+         
+      </Routes>
+
     </>
   )
 }
